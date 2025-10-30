@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio — Adam Gibran</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-content">
+      <img src="foto adam.jpeg" alt="Foto Adam Gibran" class="profile">
+      <div class="header-text">
+        <h1>Adam Gibran Fauzi</h1>
+        <p> Web Developer </p>
+        <div class="header-links">
+          <a href="mailto:adam@example.com">adamgibran577@gmail.com</a>
+          <span>•</span>
+          <a href="tel:+6281234567890">+62 882 1030 2065</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="about section">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya seorang web developer pemula keahlian saya ada pada HTML, CSS, 
+        saya juga sedikit memahami tentang bahasa pemrograman python,
+        hobi saya bermain game dan membaca manga/novel,
+        saya beercita cita menjadi web devoloper atau pengembang game
+      </p>
+    </section>
+
+    <section class="grid-2 section">
+      <div class="card">
+        <h2>Pendidikan</h2>
+        <ul>
+          <li><strong>SDN Pondok Bahar 03</strong></li>
+          <li><strong>SMPN 24 kota tangerang</strong></li>
+          <li><strong>SMK Ki Hajar Dewantoro</strong></li>
+          <li><strong>S1 Teknik Informatika </strong>—> sedang menjalani (semester 5)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Pengalaman</h2>
+        <ul>
+          <li><strong>web Developer</strong></li>
+          <li><strong>UI Designer</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills section">
+      <h2>Kemampuan</h2>
+      <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Adobe Ilustrator</span>
+        <span>Canva</span>
+        <span>Filmora</span>
+      </div>
+    </section>
+
+    <section class="projects section">
+      <h2>Proyek</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Website Portofolio</h3>
+          <p>Website pribadi untuk menampilkan karya, biodata, dan keahlian.</p>
+        </div>
+        <div class="project-card">
+          <h3>Aplikasi Absensi QR</h3>
+          <p>Aplikasi absensi mahasiswa berbasis QR Code dengan verifikasi otomatis.</p>
+        </div>
+        <div class="project-card">
+          <h3>Dashboard Admin</h3>
+          <p>Dashboard untuk monitoring data mahasiswa dan aktivitas kampus.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section">
+      <h2>Kontak</h2>
+      <p>Hubungi saya jika ingin berdiskusi atau bekerja sama dalam proyek:</p>
+      <ul>
+        <li>Email: <a href="mailto:adamgibran577@gmail.com">adamgibran577@gmail.com</a></li>
+        <li>Telepon: <a href="tel:+6288210302065">+62 882 1030 2065</a></li>
+        <li>GitHub: <a href="https://github.com/AdamGibranFauzi" target="_blank">github.com/AdamGibranFauzi</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Adam Gibran — Dibuat dengan ❤️ dan semangat belajar.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
